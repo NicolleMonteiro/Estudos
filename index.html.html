@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Veterinária Vida Animal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f9f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #3b9c7c;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #2e7d66;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .intro h2 {
+      color: #3b9c7c;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+
+    .service-card {
+      flex: 1 1 30%;
+      background-color: white;
+      border: 1px solid #dfeee9;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .service-card h3 {
+      color: #2e7d66;
+    }
+
+    footer {
+      background-color: #3b9c7c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Clínica Veterinária Vida Animal</h1>
+    <p>Cuidando da saúde do seu melhor amigo</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section class="intro" id="sobre">
+      <h2>Bem-vindo à nossa clínica!</h2>
+      <p>Oferecemos atendimento completo e humanizado para cães, gatos e animais exóticos. Nossa missão é garantir a saúde, bem-estar e felicidade do seu pet.</p>
+    </section>
+
+    <section class="services" id="servicos">
+      <div class="service-card">
+        <h3>Consultas e Check-ups</h3>
+        <p>Atendimento clínico com profissionais experientes, utilizando equipamentos modernos.</p>
+      </div>
+      <div class="service-card">
+        <h3>Vacinação</h3>
+        <p>Calendário vacinal completo para proteger seu pet contra doenças contagiosas.</p>
+      </div>
+      <div class="service-card">
+        <h3>Cirurgias</h3>
+        <p>Procedimentos cirúrgicos com segurança e cuidado, com monitoramento especializado.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer id="contato">
+    <p>📍 Rua das Acácias, 123 - São Paulo, SP</p>
+    <p>📞 (11) 1234-5678 | ✉️ contato@vidaanimalvet.com.br</p>
+    <p>&copy; 2025 Clínica Veterinária Vida Animal</p>
+  </footer>
+
+</body>
+</html>
